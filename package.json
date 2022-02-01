@@ -1,0 +1,40 @@
+{
+  "name": "nodetest4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js",
+    "start": "node app.js"
+  },
+"jest":{
+"reporters":[
+"default",[
+"./node_modules/jest-html-reporter",
+{
+  "pageTitle":"Test Report"
+}
+
+]
+
+
+
+]
+
+
+
+},
+
+
+
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "jest-html-reporter": "^3.4.2",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
